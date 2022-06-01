@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <meta name="viewport" content="user-scaleble=no, width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Question Time</title>
+    <script type="text/javascript" src="json/questions.json"></script>
 </head>
 <body>
-    
+    <header id="header">
+        <h1>Question Time<br>The Quiz App</h1>
+    </header>
+
+    <div class="quiz-wrapper">
+        <div id="quiz"></div>
+    </div>
+
+    <button id="pevious"><p>Previous Question</p></button>
+    <button id="next"><p>Next Question</p></button>
+    <button id="submit"><p>Submit Quiz</p></button>
+
+    <div id="results"></div>
+
+    <footer id="footer">
+        <h5>Fagner Luan 2022</h5>
+    </footer>
+
+    <script src="js/app.js"></script>
 </body>
 </html>

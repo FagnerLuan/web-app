@@ -1,0 +1,51 @@
+data = [
+    {"question": "Plaka é o bairro mais antigo de qual cidade?", 
+        "answers": {
+            "a": "Atenas", 
+            "b": "Praga", 
+            "c": "Roma", 
+            "d": "Viena"
+        }, 
+        "correctAswer": "a"
+    },
+    {
+        "question": "", 
+        "answers": {
+            "a": "", 
+            "b": "", 
+            "c": "", 
+            "d": ""
+        }, 
+            "correctAswer": ""
+    },
+    {
+        "question": "", 
+        "answers": {
+            "a": "", 
+            "b": "", 
+            "c": "", 
+            "d": ""
+        }, 
+        "correctAswer": ""}
+    ,
+    {
+        "question": "", 
+        "answers": {
+            "a": "", 
+            "b": "", 
+            "c": "", 
+            "d": ""
+        }, 
+        "correctAswer": ""
+    },
+    {
+        "question": "", 
+        "answers": {
+            "a": "", 
+            "b": "", 
+            "c": "", 
+            "d": ""
+        }, 
+        "correctAswer": ""
+    }
+];
